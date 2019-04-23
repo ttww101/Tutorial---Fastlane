@@ -18,11 +18,11 @@ brew cask install fastlane
 
 * 配置 Scheme
 
-![](images/schema.png)
+![](Images/schema.png)
 
 * 撰寫 UITest
 
-![](images/uitest.png)
+![](Images/uitest.png)
 
 # 第三部分 - Fastlane 前置配置
 
@@ -67,7 +67,7 @@ fastlane
 
 [自動增加版本號](https://developer.apple.com/library/archive/qa/qa1827/_index.html)
 
-![](images/autoadd.png)
+![](Images/autoadd.png)
 
 
 
