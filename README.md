@@ -20,9 +20,13 @@ brew cask install fastlane
 
 ![](Images/schema.png)
 
+-------
+
 * 撰寫 UITest
 
 ![](Images/uitest.png)
+
+-------
 
 # 第三部分 - Fastlane 前置配置
 
@@ -57,6 +61,8 @@ let app = XCUIApplication()
 instruments -s devices
 ```
 
+> 注意：目前app store 上面建議只有 6.5 跟 5.5 即可，所以可不用像我上面這麼多 device
+
 ![](Images/devices.png)
 
 * 執行 snapshot 
@@ -67,7 +73,9 @@ instruments -s devices
 fastlane snapshot
 ```
 
-# 第五部分 - deliver 自動更新上架資訊 配置
+# 第五部分 - deliver 配置
+
+* deliver 專門在幫你上傳一些上架資訊，包含自動拍照
 
 ```bash
 fastlane deliver
