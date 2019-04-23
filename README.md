@@ -1,18 +1,28 @@
-# Tutorial---Fastlane
+# Tutorial Fastlane
 
-Fastlane auto screenshot 跟 deliver
+自動增加 build 版本號碼 [Yes]
+
+自動拍照 [Yes]
+
+自動上傳拍照檔案跟 app 相關資訊 [Yes]
+
+自動打包 ipa [No]
 
 # 第一部分 - 安裝 Fastlane ( 有安裝過跳到第二步驟 )
+
+```bash
+brew cask install fastlane
+```
 
 # 第二部分 - 建立好 UITest
 
 * 配置 Scheme
 
-[](images/schema.png)
+![](images/schema.png)
 
 * 撰寫 UITest
 
-[](images/uitest.png)
+![](images/uitest.png)
 
 # 第三部分 - Fastlane 前置配置
 
